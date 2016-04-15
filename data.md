@@ -17,10 +17,10 @@ with it using exactly the same tools we'll learn about today.
 
 Files we use in this dataset:
 
-- [surveys.csv](http://files.figshare.com/1919744/surveys.csv) - the survey data  
+- [surveys.csv](https://ndownloader.figshare.com/files/2292172) - the survey data  
 Fields: record_id, month, day, year, plot_id, species_id, sex, hindfoot_length, weight
-- [plots.csv](http://files.figshare.com/1919741/plots.csv) - information on plot number and type  
+- [plots.csv](https://ndownloader.figshare.com/files/3299474) - information on plot number and type  
 Fields: plot_id, plot_type
-- [species.csv](http://files.figshare.com/1919741/species.csv) - information on species codes and scientific name  
+- [species.csv](https://ndownloader.figshare.com/files/3299483) - information on species codes and scientific name  
 Fields: species_id, genus, species, taxa
-- [portal_mammals.sqlite](http://files.figshare.com/1919743/portal_mammals.sqlite) - database of survey, plots and species tables
+- [portal_mammals.sqlite](https://ndownloader.figshare.com/files/2292171) - database of survey, plots and species tables
