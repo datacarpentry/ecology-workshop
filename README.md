@@ -28,23 +28,23 @@ There are two lessons in this section. The first is a spreadsheet lesson that te
 
 The second lesson uses a spreadsheet-like program called [OpenRefine](http://openrefine.org/) to teach data cleaning and filtering, and to introduce scripting, regular expressions and APIs (application programming interfaces).
 
-  * [OpenRefine lesson](http://www.datacarpentry.org/OpenRefine-ecology/)
-  * [OpenRefine repository](https://github.com/datacarpentry/OpenRefine-ecology)
+  * [OpenRefine lesson](http://www.datacarpentry.org/OpenRefine-ecology-lesson/)
+  * [OpenRefine repository](https://github.com/datacarpentry/OpenRefine-ecology-lesson)
 
 ### Day 1 afternoon and Day 2 morning: Data analysis & visualization
 
 These lessons includes a basic information to R / python syntax, importing CSV data, subsetting and merging, data, and finishes with how to calculate summary statistics and create a simple plot.
 
-  * [R lesson](http://www.datacarpentry.org/R-ecology/) and [python lesson](http://www.datacarpentry.org/python-ecology/)
-  * [R repository](http://www.datacarpentry.org/R-ecology/) and [python repository](https://github.com/datacarpentry/python-ecology)
+  * [R lesson](http://www.datacarpentry.org/R-ecology-lesson/) and [python lesson](http://www.datacarpentry.org/python-ecology-lesson/)
+  * [R repository](http://www.datacarpentry.org/R-ecology-lesson/) and [python repository](https://github.com/datacarpentry/python-ecology-lesson)
 
 
 ### Day 2 afternoon: Data management with SQL
 
 This lesson introduces the concept of a database using SQLite, how to structure data for easy database import, and how to import tabular data into SQLite. Then, it teaches basic queries, combining results and doing queries across multiple tables.  
 
-  * [SQL lesson](http://www.datacarpentry.org/sql-ecology/)
-  * [SQL repository](https://github.com/datacarpentry/sql-ecology)
+  * [SQL lesson](http://www.datacarpentry.org/sql-ecology-lesson/)
+  * [SQL repository](https://github.com/datacarpentry/sql-ecology-lesson)
 
 ## Other lessons
 
