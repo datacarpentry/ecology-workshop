@@ -4,7 +4,7 @@
 
  Data Carpentry's aim is to teach researchers basic concepts, skills, and tools for working with data so that they can get more done in less time, and with less pain. This workshop uses a tabular ecology dataset and teaches data cleaning, management, analysis and visualization. There are no pre-requisites, and the materials assume no prior knowledge about the tools.
 
-The workshop uses a single tabular data set that contains observations about adorable small mammals over a long period of time in Arizona. See `data.md` for more information about this data set, including the dowload location.
+The workshop uses a single tabular data set that contains observations about adorable small mammals over a long period of time in Arizona. See `data.md` for more information about this data set, including the download location.
 
 The workshop can be taught using R or python as the base language.
 
@@ -36,7 +36,7 @@ The second lesson uses a spreadsheet-like program called [OpenRefine](http://ope
 These lessons includes a basic information to R / python syntax, importing CSV data, subsetting and merging, data, and finishes with how to calculate summary statistics and create a simple plot.
 
   * [R lesson](http://www.datacarpentry.org/R-ecology-lesson/) and [python lesson](http://www.datacarpentry.org/python-ecology-lesson/)
-  * [R repository](http://www.datacarpentry.org/R-ecology-lesson/) and [python repository](https://github.com/datacarpentry/python-ecology-lesson)
+  * [R repository](https://github.com/datacarpentry/R-ecology-lesson) and [python repository](https://github.com/datacarpentry/python-ecology-lesson)
 
 
 ### Day 2 afternoon: Data management with SQL
