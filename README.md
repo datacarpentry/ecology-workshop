@@ -33,7 +33,7 @@ The second lesson uses a spreadsheet-like program called [OpenRefine](http://ope
 
 ### Day 1 afternoon and Day 2 morning: Data analysis & visualization
 
-These lessons includes a basic information to R / Python syntax, importing CSV data, subsetting and merging, data, and finishes with how to calculate summary statistics and create a simple plot.
+These lessons includes a basic introduction to R or Python syntax, importing CSV data, and subsetting and merging data. It finishes with calculating summary statistics and creating simple plots.
 
   * [R lesson](http://www.datacarpentry.org/R-ecology-lesson/) and [Python lesson](http://www.datacarpentry.org/python-ecology-lesson/)
   * [R repository](https://github.com/datacarpentry/R-ecology-lesson) and [Python repository](https://github.com/datacarpentry/python-ecology-lesson)
