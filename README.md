@@ -6,13 +6,13 @@
 
 The workshop uses a single tabular data set that contains observations about adorable small mammals over a long period of time in Arizona. See `data.md` for more information about this data set, including the download location.
 
-The workshop can be taught using R or python as the base language.
+The workshop can be taught using R or Python as the base language.
 
 Overview of the lessons:
 
   1. Data organization in spreadsheets and data cleaning with OpenRefine
-  * Introduction to R or python
-  * Data analysis and visualization in R or python
+  * Introduction to R or Python
+  * Data analysis and visualization in R or Python
   * SQL for data management
 
 An example of the ecology materials in the wild is this [Data Carpentry workshop at CalTech](http://www.datacarpentry.org/2015-11-23-caltech/) in 2015.
@@ -33,10 +33,10 @@ The second lesson uses a spreadsheet-like program called [OpenRefine](http://ope
 
 ### Day 1 afternoon and Day 2 morning: Data analysis & visualization
 
-These lessons includes a basic information to R / python syntax, importing CSV data, subsetting and merging, data, and finishes with how to calculate summary statistics and create a simple plot.
+These lessons includes a basic introduction to R or Python syntax, importing CSV data, and subsetting and merging data. It finishes with calculating summary statistics and creating simple plots.
 
-  * [R lesson](http://www.datacarpentry.org/R-ecology-lesson/) and [python lesson](http://www.datacarpentry.org/python-ecology-lesson/)
-  * [R repository](https://github.com/datacarpentry/R-ecology-lesson) and [python repository](https://github.com/datacarpentry/python-ecology-lesson)
+  * [R lesson](http://www.datacarpentry.org/R-ecology-lesson/) and [Python lesson](http://www.datacarpentry.org/python-ecology-lesson/)
+  * [R repository](https://github.com/datacarpentry/R-ecology-lesson) and [Python repository](https://github.com/datacarpentry/python-ecology-lesson)
 
 
 ### Day 2 afternoon: Data management with SQL
