@@ -11,7 +11,7 @@ Data Carpentry's aim is to teach researchers basic concepts, skills, and tools f
 > There are no pre-requisites, and the materials assume no prior knowledge about the tools.
 {: .prereq}
 
-The workshop uses a single tabular data set that contains observations about adorable small mammals over a long period of time in Arizona. See `data.md` for more information about this data set, including the download location.
+The workshop uses a single tabular data set that contains observations about adorable small mammals over a long period of time in Arizona. See [data.md](https://github.com/datacarpentry/ecology-workshop/blob/gh-pages/data.md) for more information about this data set, including the download location.
 
 The workshop can be taught using R or python as the base language.
 
