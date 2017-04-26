@@ -1,4 +1,9 @@
-# data-ecology
+---
+layout: page
+title: "Workshop data"
+permalink: /data/
+---
+
 All of the ecology lessons use the same data set throughout. The data is tabular (rows and columns), similar in structure to what you might have in a spreadsheet. 
 
 ## The Portal Project Teaching Database
@@ -14,6 +19,17 @@ manipulations controlling which rodents are allowed to access which plots.
 This is a real dataset that has been used in over 100 publications. We've simplified
 it just a little bit for the workshop, but you can download the full dataset and work
 with it using exactly the same tools we'll learn about today.
+
+> ## Portal Project Teaching Dataset
+> The Portal Project Teaching Database is a simplified version of the Portal Project Database designed for teaching. It provides a real world example of life-history, population, and ecological data, with sufficient complexity to teach many aspects of data analysis and management, but with many complexities removed to allow students to focus on the core ideas and skills being taught.
+> 
+> The database is currently available in csv, json, and sqlite.
+> 
+> This database is not designed for research as it intentionally removes some of the real-world complexities. The original database is published at [Ecological Archives](http://esapubs.org/archive/ecol/E090/118/) and this version of the database should be used for research purposes. The Python code used for converting the original database to this teach version is included as 'create_portal_teach_dataset.py'. Suggested changes or additions to this dataset can be requested or contributed in the project GitHub repository [https://github.com/weecology/portal-teachingdb](https://github.com/weecology/portal-teachingdb).
+>
+> **CITATION:** Ernest, Morgan; Brown, James; Valone, Thomas; White, Ethan P. (2017): Portal Project Teaching Database. figshare. https://doi.org/10.6084/m9.figshare.1314459.v6
+{: .prereq}
+
 
 Files we use in this dataset:
 
