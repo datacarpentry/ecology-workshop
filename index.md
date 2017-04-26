@@ -11,18 +11,30 @@ Data Carpentry's aim is to teach researchers basic concepts, skills, and tools f
 > There are no pre-requisites, and the materials assume no prior knowledge about the tools.
 {: .prereq}
 
-The workshop uses a single tabular data set that contains observations about adorable small mammals over a long period of time in Arizona. See [data.md](https://github.com/datacarpentry/ecology-workshop/blob/gh-pages/data.md) for more information about this data set, including the download location.
+> ## Data
+> 
+> The data for this workshop are is the [Portal Project Teaching Database](https://figshare.com/articles/Portal_Project_Teaching_Database/1314459) available on FigShare, with a CC-BY license available for reuse.
+>
+> The Portal Project Teaching Database is a simplified version of the Portal 
+> Project Database designed for teaching. It is a tabular dataset of observations
+> of small mammals in a desert ecosystem in Arizona, USA, collected over more than 40 years.
+> It provides a real world example of 
+> life-history, population, and ecological data, with sufficient complexity to 
+> teach many aspects of data analysis and management, but with many complexities
+> removed to allow students to focus on the core ideas and skills being taught.
+>
+> [More information on this dataset](data)
+{: .prereq}
 
-The workshop can be taught using R or python as the base language.
+The workshop can be taught using R or Python as the base language.
 
 Overview of the lessons:
 
-  1. Data organization in spreadsheets and data cleaning with OpenRefine
+  * Data organization in spreadsheets
+  * Data cleaning with OpenRefine
   * Introduction to R or python
   * Data analysis and visualization in R or python
   * SQL for data management
-
-An example of the ecology materials in the wild is this [Data Carpentry workshop at CalTech](http://www.datacarpentry.org/2015-11-23-caltech/) in 2015.
 
 ## Detailed structure
 
@@ -33,14 +45,14 @@ There are two lessons in this section. The first is a spreadsheet lesson that te
   * [spreadsheet lesson](http://www.datacarpentry.org/spreadsheet-ecology-lesson/)
   * [spreadsheet repository](https://github.com/datacarpentry/spreadsheet-ecology-lesson)
 
-The second lesson uses a spreadsheet-like program called [OpenRefine](http://openrefine.org/) to teach data cleaning and filtering, and to introduce scripting, regular expressions and APIs (application programming interfaces).
+The second lesson uses a program called [OpenRefine](http://openrefine.org/) to teach data cleaning and filtering, and to introduce the idea scripting(application programming interfaces).
 
   * [OpenRefine lesson](http://www.datacarpentry.org/OpenRefine-ecology-lesson/)
   * [OpenRefine repository](https://github.com/datacarpentry/OpenRefine-ecology-lesson)
 
 ### Day 1 afternoon and Day 2 morning: Data analysis & visualization
 
-These lessons includes a basic information to R / python syntax, importing CSV data, subsetting and merging, data, and finishes with how to calculate summary statistics and create a simple plot.
+These lessons includes a basic information to R or Python syntax, importing CSV data, subsetting and merging, data, and finishes with how to do plotting.
 
   * [R lesson](http://www.datacarpentry.org/R-ecology-lesson/) and [python lesson](http://www.datacarpentry.org/python-ecology-lesson/)
   * [R repository](https://github.com/datacarpentry/R-ecology-lesson) and [python repository](https://github.com/datacarpentry/python-ecology-lesson)
@@ -58,6 +70,4 @@ This lesson introduces the concept of a database using SQLite, how to structure 
 There are a number of other ecology lessons that are not part of the base workshop. Some of these are no longer taught, and some are only taught at extended workshops.
 
   * [shell-ecology](https://github.com/datacarpentry/shell-ecology)
-  * [R-dplyr-ecology-archived](https://github.com/datacarpentry/R-dplyr-ecology-archived)
-  * [scripting-ecology](https://github.com/datacarpentry/scripting-ecology)
-  * [R-ggplot2-ecology](https://github.com/datacarpentry/R-ggplot2-ecology)
+
