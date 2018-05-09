@@ -32,7 +32,7 @@ Overview of the lessons:
 
   * Data organization in spreadsheets
   * Data cleaning with OpenRefine
-  * Introduction to R or python
+  * Introduction to R or Python
   * Data analysis and visualization in R or python
   * SQL for data management
 
