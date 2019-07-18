@@ -45,14 +45,21 @@ There are two lessons in this section. The first is a spreadsheet lesson that te
   * [spreadsheet lesson](http://www.datacarpentry.org/spreadsheet-ecology-lesson/)
   * [spreadsheet repository](https://github.com/datacarpentry/spreadsheet-ecology-lesson)
 
-The second lesson uses a program called [OpenRefine](http://openrefine.org/) to teach data cleaning and filtering, and to introduce the idea scripting(application programming interfaces).
+The second lesson uses a program called [OpenRefine](http://openrefine.org/) to teach data cleaning and filtering, and to introduce the idea scripting (application programming interfaces).
 
   * [OpenRefine lesson](http://www.datacarpentry.org/OpenRefine-ecology-lesson/)
   * [OpenRefine repository](https://github.com/datacarpentry/OpenRefine-ecology-lesson)
 
 ### Day 1 afternoon and Day 2 morning: Data analysis & visualization
 
-These lessons includes a basic information to R or Python syntax, importing CSV data, subsetting and merging, data, and finishes with how to do plotting.
+These lessons include:
+
+* a basic information to R or Python syntax
+* importing CSV data
+* subsetting and merging data
+* how to do plotting
+
+Lessons:
 
   * [R lesson](http://www.datacarpentry.org/R-ecology-lesson/) and [python lesson](http://www.datacarpentry.org/python-ecology-lesson/)
   * [R repository](https://github.com/datacarpentry/R-ecology-lesson) and [python repository](https://github.com/datacarpentry/python-ecology-lesson)
