@@ -29,7 +29,7 @@ For a full description of the data used in this workshop see the [data page](dat
 | R | See install instructions below. | | Linux, MacOS, Windows | |
 | RStudio | [Link](https://www.rstudio.com/products/rstudio/download/#download) | [Cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf) | Linux, MacOS, Windows| |
 | Python | See install instructions below. |  | Linux, MacOS, Windows | |
-| SQLite | | | | 
+| SQLite Browser | [Link](http://sqlitebrowser.org/dl/) | | | 
 
 ### Spreadsheet program
 
@@ -52,7 +52,7 @@ clicking “Free Java Download”.
 * To install OpenOffice, go to their [download page](http://openrefine.org/download.html). From the download page, select either "Windows 
 kit", "Mac kit", or "Linux kit" - depending on your operating system - and follow the instructions next to your download link. This 
 lesson has been tested with all versions of OpenRefine up to the latest tested version, 3.2. **If you are using an older version, it is 
-recommended you upgrade to the latest tested version.**
+recommended you upgrade to the latest tested version.** After installing, you can delete the installer `.dmg` file. 
 
 * You may get an error message: "OpenRefine.app can't be opened because it is from an unidentified developer." If you get this message, 
 open your system preferences and click "Security & Privacy". You will see a message "OpenRefine.app was blocked from opening because it
@@ -216,3 +216,16 @@ wish to use a different browser, open this link: <http://localhost:8888>.
 
 For a brief introduction to Jupyter Notebooks, please consult our
 [Introduction to Jupyter Notebooks](https://datacarpentry.org/python-ecology-lesson/jupyter_notebooks/) page.
+
+## SQL
+
+* SQL is a specialized programming language used with databases.  We
+use a simple database manager called [SQLite](http://www.sqlite.org/)
+in our lessons. We will use the [DB Browser for SQLite](http://sqlitebrowser.org/) program,
+which is available for all major platforms.
+
+* To install the DB Browser, go to their [download page](http://sqlitebrowser.org/dl/) and choose the correct installer for 
+your operating system. Once the installer is downloaded, double click on it (you may need to open your Downloads folder), follow
+any other instructions that appear, and
+DB Browser should install. After installing, you can delete the installer `.dmg` file. 
+
