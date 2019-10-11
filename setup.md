@@ -26,10 +26,9 @@ For a full description of the data used in this workshop see the [data page](dat
 | -------- | ------------ | ------ | ------------- | ----------- |
 | Spreadsheet program | [Link](https://www.libreoffice.org/download/download/) | [Link](https://documentation.libreoffice.org/en/english-documentation/) | Linux, MacOS, Windows | Spreadsheet program for organizing tabular data. |
 | OpenRefine |[Link](http://openrefine.org/download.html) | [Link](http://openrefine.org/documentation.html) | Linux, MacOS, Windows | 
-| R | See install instructions below. | | |
-| RStudio | [Link](https://www.rstudio.com/products/rstudio/download/#download) | [Cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf) | |
-| Python | | |
-| Jupyter Notebooks | | | |
+| R | See install instructions below. | | Linux, MacOS, Windows | |
+| RStudio | [Link](https://www.rstudio.com/products/rstudio/download/#download) | [Cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf) | Linux, MacOS, Windows| |
+| Python | [Link]() | [Link]() | Linux, MacOS, Windows | |
 | SQLite | | | | 
 
 ### Spreadsheet program
@@ -154,3 +153,66 @@ your operating system, and then follow the instructions to install
 `RSQLite` packages. Start RStudio by double-clicking the icon and then type:
   `install.packages(c("tidyverse", "RSQLite"))`. You can also do this by going to Tools -> Install Packages and 
   typing the names of the packages you want to install, separated by a comma.
+  
+### Python and Jupyter Notebooks
+
+* [Python](http://python.org) is a popular language for
+scientific computing, and great for general-purpose programming as
+well. For this workshop we use Python version 3.x. 
+Installing all of its scientific packages individually can be
+a bit difficult, so we recommend an all-in-one installer.
+We will use Anaconda or Miniconda.
+They both use [Conda](http://conda.pydata.org/docs/), the main difference is
+that Anaconda comes with a lot of packages pre-installed.
+With Miniconda you will need to install the required packages.
+We recommend using the Anaconda installation instructions. 
+
+> ## Anaconda installation
+> 
+> Download and install [Anaconda](https://www.anaconda.com/distribution/#download-section).
+> Remember to choose the installer for Python 3.x.
+> Anaconda does not include the plotting package plotnine.  To install this package, open your terminal application and
+> type:
+> 
+> ~~~
+> conda install -c conda-forge plotnine
+> ~~~
+> {: .language-bash}
+{: .solution}
+
+> ## Miniconda installation
+> 
+> Miniconda is a "light" version of Anaconda. If you install and use Miniconda
+> you will also need to install the workshop packages.
+> 
+> Download and install [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
+> following the instructions. Remember to choose the installer for
+> Python 3.x.
+> 
+> From your terminal application, type: 
+> ~~~
+> conda list
+> ~~~
+> {: .language-bash}
+> 
+> To install the packages we'll be using in the workshop, type:
+> ~~~
+> conda install -y numpy pandas matplotlib jupyter
+> conda install -c conda-forge plotnine
+> ~~~
+> {: .language-bash}
+{: .solution}
+
+* After installing either Anaconda or Miniconda and the workshop packages,
+launch a Jupyter notebook by typing this command from the terminal:
+
+~~~
+jupyter notebook
+~~~
+{: .language-bash}
+
+The notebook should open automatically in your browser. If it does not or you
+wish to use a different browser, open this link: <http://localhost:8888>.
+
+For a brief introduction to Jupyter Notebooks, please consult our
+[Introduction to Jupyter Notebooks](jupyter_notebooks) page.
