@@ -6,9 +6,17 @@ root: .
 Data Carpentry's aim is to teach researchers basic concepts, skills, and tools for working with data so that they can get more done in less time, and with less pain. This workshop uses a tabular ecology dataset and teaches data cleaning, management, analysis and visualization. 
 
 
-> ## Prerequisites
+> ## Getting Started
 >
-> There are no pre-requisites, and the materials assume no prior knowledge about the tools.
+> Data Carpentry’s teaching is hands-on, so participants are encouraged to use 
+> their own computers to ensure the proper setup of tools for an efficient 
+> workflow. To most effectively use these materials, please make sure to download 
+> the data and install everything before working through this lesson. 
+> 
+> This workshop assumes no prior experience with the tools covered in the workshop.
+>
+> To get started, follow the directions in the [Setup](setup.html) tab to
+> get access to the required software and data for this workshop.
 {: .prereq}
 
 > ## Data
@@ -26,48 +34,19 @@ Data Carpentry's aim is to teach researchers basic concepts, skills, and tools f
 > [More information on this dataset](data)
 {: .prereq}
 
-The workshop can be taught using R or Python as the base language.
+# Workshop Overview
 
-Overview of the lessons:
+The workshop can be taught using R or Python as the base language. All workshops start with a lesson on organizing data effectively in 
+spreadsheets, followed by a lesson on data cleaning with OpenRefine. Each workshop will then include **either** a lesson on R **or** a 
+lesson on Python. Both the R and Python lessons focus on data import, exploratory data analysis, and visualization. Workshops may also 
+include a lesson on working with data in a relational database using SQL, at the discretion of the instructors.
 
-  * Data organization in spreadsheets
-  * Data cleaning with OpenRefine
-  * Introduction to R or Python
-  * Data analysis and visualization in R or python
-  * SQL for data management
+| Lesson    | Overview |
+| ------- | ---------- |
+| [Data Organization in Spreadsheets for Ecologists](http://www.datacarpentry.org/spreadsheet-ecology-lesson/) | Learn how to organize tabular data, handle date formatting, carry out quality control and quality assurance and export data to use with downstream applications. |
+| [Data Cleaning with OpenRefine for Ecologists	](http://www.datacarpentry.org/OpenRefine-ecology-lesson/) | Explore, summarize, and clean tabular data reproducibly. |
+| [Data Analysis and Visualization in R for Ecologists](https://datacarpentry.org/R-ecology-lesson/) | Import data into R, calculate summary statistics, and create publication-quality graphics. |
+| [Data Analysis and Visualization with Python for Ecologists](https://datacarpentry.org/python-ecology-lesson/) | Import data into Python, calculate summary statistics, and create publication-quality graphics. |
+| [Data Management with SQL for Ecologists	](https://datacarpentry.org/sql-ecology-lesson/) | Structure data for database import. Query data within a relational database. |
 
-## Detailed structure
-
-### Day 1 morning: Data organization & cleaning
-
-There are two lessons in this section. The first is a spreadsheet lesson that teaches  good data organization, and some data cleaning and quality control checking in a spreadsheet program.
-
-  * [spreadsheet lesson](http://www.datacarpentry.org/spreadsheet-ecology-lesson/)
-  * [spreadsheet repository](https://github.com/datacarpentry/spreadsheet-ecology-lesson)
-
-The second lesson uses a program called [OpenRefine](http://openrefine.org/) to teach data cleaning and filtering, and to introduce the idea scripting(application programming interfaces).
-
-  * [OpenRefine lesson](http://www.datacarpentry.org/OpenRefine-ecology-lesson/)
-  * [OpenRefine repository](https://github.com/datacarpentry/OpenRefine-ecology-lesson)
-
-### Day 1 afternoon and Day 2 morning: Data analysis & visualization
-
-These lessons includes a basic information to R or Python syntax, importing CSV data, subsetting and merging, data, and finishes with how to do plotting.
-
-  * [R lesson](http://www.datacarpentry.org/R-ecology-lesson/) and [python lesson](http://www.datacarpentry.org/python-ecology-lesson/)
-  * [R repository](https://github.com/datacarpentry/R-ecology-lesson) and [python repository](https://github.com/datacarpentry/python-ecology-lesson)
-
-
-### Day 2 afternoon: Data management with SQL
-
-This lesson introduces the concept of a database using SQLite, how to structure data for easy database import, and how to import tabular data into SQLite. Then, it teaches basic queries, combining results and doing queries across multiple tables.  
-
-  * [SQL lesson](http://www.datacarpentry.org/sql-ecology-lesson/)
-  * [SQL repository](https://github.com/datacarpentry/sql-ecology-lesson)
-
-## Other lessons
-
-There are a number of other ecology lessons that are not part of the base workshop. Some of these are no longer taught, and some are only taught at extended workshops.
-
-  * [shell-ecology](https://github.com/datacarpentry/shell-ecology)
 
