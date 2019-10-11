@@ -229,3 +229,4 @@ your operating system. Once the installer is downloaded, double click on it (you
 any other instructions that appear, and
 DB Browser should install. After installing, you can delete the installer `.dmg` file. 
 
+Congratulations! You are now ready for the workshop!
