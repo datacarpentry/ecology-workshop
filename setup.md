@@ -28,7 +28,7 @@ For a full description of the data used in this workshop see the [data page](dat
 | OpenRefine |[Link](http://openrefine.org/download.html) | [Link](http://openrefine.org/documentation.html) | Linux, MacOS, Windows | 
 | R | See install instructions below. | | Linux, MacOS, Windows | |
 | RStudio | [Link](https://www.rstudio.com/products/rstudio/download/#download) | [Cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf) | Linux, MacOS, Windows| |
-| Python | [Link]() | [Link]() | Linux, MacOS, Windows | |
+| Python | See install instructions below. |  | Linux, MacOS, Windows | |
 | SQLite | | | | 
 
 ### Spreadsheet program
@@ -203,7 +203,7 @@ We recommend using the Anaconda installation instructions.
 > {: .language-bash}
 {: .solution}
 
-* After installing either Anaconda or Miniconda and the workshop packages,
+After installing either Anaconda or Miniconda and the workshop packages,
 launch a Jupyter notebook by typing this command from the terminal:
 
 ~~~
@@ -215,4 +215,4 @@ The notebook should open automatically in your browser. If it does not or you
 wish to use a different browser, open this link: <http://localhost:8888>.
 
 For a brief introduction to Jupyter Notebooks, please consult our
-[Introduction to Jupyter Notebooks](jupyter_notebooks) page.
+[Introduction to Jupyter Notebooks](https://datacarpentry.org/python-ecology-lesson/jupyter_notebooks/) page.
