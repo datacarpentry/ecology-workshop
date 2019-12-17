@@ -12,9 +12,9 @@ title: Setup for Python workshop
 | Software | Install | Manual | Available for | Description |
 | -------- | ------------ | ------ | ------------- | ----------- |
 | Spreadsheet program | [Link](https://www.libreoffice.org/download/download/) | [Link](https://documentation.libreoffice.org/en/english-documentation/) | Linux, MacOS, Windows | Spreadsheet program for organizing tabular data. |
-| OpenRefine |[Link](http://openrefine.org/download.html) | [Link](http://openrefine.org/documentation.html) | Linux, MacOS, Windows | 
-| Python | See install instructions below. |  | Linux, MacOS, Windows | |
-| SQLite Browser | [Link](http://sqlitebrowser.org/dl/) | | | 
+| OpenRefine |[Link](http://openrefine.org/download.html) | [Link](http://openrefine.org/documentation.html) | Linux, MacOS, Windows | Program for reproducibly cleaning data. | 
+| Python | See install instructions below. |  | Linux, MacOS, Windows | Programming language for data analysis and visualisation. |
+| SQLite Browser | [Link](http://sqlitebrowser.org/dl/) | [Link](https://github.com/sqlitebrowser/sqlitebrowser/wiki) | Linux, MacOS, Windows | Tool for creating, designing, and editing database files. | 
 
 
 {% include setup-spreadsheet.md %}
