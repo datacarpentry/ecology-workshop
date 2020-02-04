@@ -5,7 +5,7 @@ connection is needed and your data remains local. You need to have a ‘Java Run
 OpenRefine. If you don’t already have one installed then you can download and install from http://java.com by going to the site and 
 clicking “Free Java Download”.
 
-* To install OpenOffice, go to their [download page](http://openrefine.org/download.html). From the download page, select either "Windows 
+* To install OpenRefine, go to their [download page](http://openrefine.org/download.html). From the download page, select either "Windows 
 kit", "Mac kit", or "Linux kit" - depending on your operating system - and follow the instructions next to your download link. This 
 lesson has been tested with all versions of OpenRefine up to the latest tested version, 3.2. **If you are using an older version, it is 
 recommended you upgrade to the latest tested version.** After installing, you can delete the installer `.dmg` file. 
