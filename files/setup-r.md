@@ -23,6 +23,9 @@ your operating system, and then follow the instructions to install
 > whether a more recent version is available. If so, please download and install
 > it. You can [check here](https://cran.r-project.org/bin/windows/base/rw-FAQ.html#How-do-I-UNinstall-R_003f) for
 > more information on how to remove old versions from your system if you wish to do so.
+>
+> * Follow the steps in the instructions [for everyone](#for-everyone) at the
+>   bottom of this page.
 {: .solution}
 
 > ## If you don't have R and RStudio installed
@@ -34,7 +37,10 @@ your operating system, and then follow the instructions to install
 > * Under *Installers* select **RStudio x.yy.zzz - Windows Vista/7/8/10** (where x, y, and z represent version numbers)
 > * Double click the file to install it
 > * Once it's installed, open RStudio to make sure it works and you don't get any
-> error messages.
+> error messages
+>
+> * Follow the steps in the instructions [for everyone](#for-everyone) at the
+>   bottom of this page.
 {: .solution}
 
 
@@ -50,6 +56,9 @@ your operating system, and then follow the instructions to install
 >	  the [CRAN website](https://cran.r-project.org/bin/macosx/) and check
 >	  whether a more recent version is available. If so, please download and install
 >	  it.
+>
+> * Follow the steps in the instructions [for everyone](#for-everyone) at the
+>   bottom of this page.
 {: .solution}
 
 > ## If you don't have R and RStudio installed
@@ -66,6 +75,9 @@ your operating system, and then follow the instructions to install
 > * Double click the file to install RStudio
 > * Once it's installed, open RStudio to make sure it works and you don't get any
 >   error messages.
+>
+> * Follow the steps in the instructions [for everyone](#for-everyone) at the
+>   bottom of this page.
 {: .solution}
 
 #### Linux
@@ -84,6 +96,10 @@ your operating system, and then follow the instructions to install
    rstudio-x.yy.zzz-amd64.deb` at the terminal).
 * Once it's installed, open RStudio to make sure it works and you don't get any
    error messages.
+* Follow the steps in the [instructions for everyone](#for-everyone)
+
+
+#### For everyone
 
 * After installing R and RStudio, you need to install the `tidyverse` and
 `RSQLite` packages. Start RStudio by double-clicking the icon and then type:
