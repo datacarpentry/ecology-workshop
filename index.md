@@ -44,8 +44,8 @@ include a lesson on working with data in a relational database using SQL, at the
 
 | Lesson    | Overview |
 | ------- | ---------- |
-| [Data Organization in Spreadsheets for Ecologists](http://www.datacarpentry.org/spreadsheet-ecology-lesson/) | Learn how to organize tabular data, handle date formatting, carry out quality control and quality assurance and export data to use with downstream applications. |
-| [Data Cleaning with OpenRefine for Ecologists	](http://www.datacarpentry.org/OpenRefine-ecology-lesson/) | Explore, summarize, and clean tabular data reproducibly. |
+| [Data Organization in Spreadsheets for Ecologists](http://datacarpentry.org/spreadsheet-ecology-lesson/) | Learn how to organize tabular data, handle date formatting, carry out quality control and quality assurance and export data to use with downstream applications. |
+| [Data Cleaning with OpenRefine for Ecologists	](http://datacarpentry.org/OpenRefine-ecology-lesson/) | Explore, summarize, and clean tabular data reproducibly. |
 | [Data Analysis and Visualization in R for Ecologists](https://datacarpentry.org/R-ecology-lesson/) | Import data into R, calculate summary statistics, and create publication-quality graphics. |
 | [Data Analysis and Visualization with Python for Ecologists](https://datacarpentry.org/python-ecology-lesson/) | Import data into Python, calculate summary statistics, and create publication-quality graphics. |
 | [Data Management with SQL for Ecologists	](https://datacarpentry.org/sql-ecology-lesson/) | Structure data for database import. Query data within a relational database. |

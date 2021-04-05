@@ -15,7 +15,7 @@ Overview of the lessons:
   * Data analysis and visualization in R or Python
   * SQL for data management
 
-An example of the ecology materials in the wild is this [Data Carpentry workshop at CalTech](http://www.datacarpentry.org/2015-11-23-caltech/) in 2015.
+An example of the ecology materials in the wild is this [Data Carpentry workshop at CalTech](http://datacarpentry.org/2015-11-23-caltech/) in 2015.
 
 ## Detailed structure
 
@@ -23,19 +23,19 @@ An example of the ecology materials in the wild is this [Data Carpentry workshop
 
 There are two lessons in this section. The first is a spreadsheet lesson that teaches  good data organization, and some data cleaning and quality control checking in a spreadsheet program.
 
-  * [spreadsheet lesson](http://www.datacarpentry.org/spreadsheet-ecology-lesson/)
+  * [spreadsheet lesson](http://datacarpentry.org/spreadsheet-ecology-lesson/)
   * [spreadsheet repository](https://github.com/datacarpentry/spreadsheet-ecology-lesson)
 
 The second lesson uses a spreadsheet-like program called [OpenRefine](http://openrefine.org/) to teach data cleaning and filtering, and to introduce scripting, regular expressions and APIs (application programming interfaces).
 
-  * [OpenRefine lesson](http://www.datacarpentry.org/OpenRefine-ecology-lesson/)
+  * [OpenRefine lesson](http://datacarpentry.org/OpenRefine-ecology-lesson/)
   * [OpenRefine repository](https://github.com/datacarpentry/OpenRefine-ecology-lesson)
 
 ### Day 1 afternoon and Day 2 morning: Data analysis & visualization
 
 These lessons includes a basic introduction to R or Python syntax, importing CSV data, and subsetting and merging data. It finishes with calculating summary statistics and creating simple plots.
 
-  * [R lesson](http://www.datacarpentry.org/R-ecology-lesson/) and [Python lesson](http://www.datacarpentry.org/python-ecology-lesson/)
+  * [R lesson](http://datacarpentry.org/R-ecology-lesson/) and [Python lesson](http://datacarpentry.org/python-ecology-lesson/)
   * [R repository](https://github.com/datacarpentry/R-ecology-lesson) and [Python repository](https://github.com/datacarpentry/python-ecology-lesson)
 
 
@@ -43,7 +43,7 @@ These lessons includes a basic introduction to R or Python syntax, importing CSV
 
 This lesson introduces the concept of a database using SQLite, how to structure data for easy database import, and how to import tabular data into SQLite. Then, it teaches basic queries, combining results and doing queries across multiple tables.  
 
-  * [SQL lesson](http://www.datacarpentry.org/sql-ecology-lesson/)
+  * [SQL lesson](http://datacarpentry.org/sql-ecology-lesson/)
   * [SQL repository](https://github.com/datacarpentry/sql-ecology-lesson)
 
 ## Other lessons
