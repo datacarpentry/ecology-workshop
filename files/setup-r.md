@@ -15,7 +15,7 @@
 
 #### Windows
 
-:::::::::::::::  solution
+:::::::::::::::: spoiler
 
 ## If you already have R and RStudio installed
 
@@ -37,7 +37,7 @@
 
 :::::::::::::::::::::::::
 
-:::::::::::::::  solution
+:::::::::::::::: spoiler
 
 ## If you don't have R and RStudio installed
 
@@ -63,7 +63,7 @@
 
 #### macOS
 
-:::::::::::::::  solution
+:::::::::::::::: spoiler
 
 ## If you already have R and RStudio installed
 
@@ -83,7 +83,7 @@
 
 :::::::::::::::::::::::::
 
-:::::::::::::::  solution
+:::::::::::::::: spoiler
 
 ## If you don't have R and RStudio installed
 

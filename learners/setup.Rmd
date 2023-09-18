@@ -2,8 +2,8 @@
 title: Setup
 ---
 
-
-{% include setup-overview.md %}
+```{r include-setup-overview, child="files/setup-overview.md"}
+```
 
 ## Setup instructions for your workshop
 

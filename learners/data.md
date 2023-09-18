@@ -30,7 +30,6 @@ This database is not designed for research as it intentionally removes some of t
 
 **CITATION:** Ernest, Morgan; Brown, James; Valone, Thomas; White, Ethan P. (2017): Portal Project Teaching Database. figshare. [https://doi.org/10.6084/m9.figshare.1314459.v6](https://doi.org/10.6084/m9.figshare.1314459.v6)
 
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Files we use in this dataset:

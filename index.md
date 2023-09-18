@@ -19,7 +19,6 @@ This workshop assumes no prior experience with the tools covered in the workshop
 To get started, follow the directions in the [Setup](.{% link setup.md %}) tab to
 get access to the required software and data for this workshop.
 
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::  prereq
@@ -38,7 +37,6 @@ removed to allow students to focus on the core ideas and skills being taught.
 
 [More information on this dataset](.{% link \_extras/data.md %})
 
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 # Workshop Overview
@@ -49,7 +47,7 @@ lesson on Python. Both the R and Python lessons focus on data import, explorator
 include a lesson on working with data in a relational database using SQL, at the discretion of the instructors.
 
 | Lesson | Overview                                                                                                                                                         | 
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 | [Data Organization in Spreadsheets for Ecologists](https://datacarpentry.org/spreadsheet-ecology-lesson/)       | Learn how to organize tabular data, handle date formatting, carry out quality control and quality assurance and export data to use with downstream applications. | 
 | [Data Cleaning with OpenRefine for Ecologists	](https://datacarpentry.org/OpenRefine-ecology-lesson/)       | Explore, summarize, and clean tabular data reproducibly.                                                                                                         | 
 | [Data Analysis and Visualization in R for Ecologists](https://datacarpentry.org/R-ecology-lesson/)       | Import data into R, calculate summary statistics, and create publication-quality graphics.                                                                       | 

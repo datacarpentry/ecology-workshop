@@ -15,7 +15,7 @@
   With Miniconda you will need to install the required packages.
   We recommend using the Anaconda installation instructions.
 
-:::::::::::::::  solution
+:::::::::::::::: spoiler
 
 ## Anaconda installation
 
@@ -30,7 +30,7 @@ conda install -c conda-forge plotnine
 
 :::::::::::::::::::::::::
 
-:::::::::::::::  solution
+:::::::::::::::: spoiler
 
 ## Miniconda installation
 
