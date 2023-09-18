@@ -1,1 +1,50 @@
-{"contributors":[{"type":"Editor","name":"Karen Cranston"},{"type":"Editor","name":"Hilmar Lapp"},{"type":"Editor","name":"Tracy Teal"},{"type":"Editor","name":"Ethan White"}],"creators":[{"name":"Greg Wilson"},{"name":"Raniere Silva"},{"name":"Francois Michonneau"},{"name":"Abigail Cabunoc"},{"name":"Tracy Teal"},{"name":"Erin Becker"},{"name":"Rémi Emonet"},{"name":"Piotr Banaszkiewicz"},{"name":"Ethan White"},{"name":"James Allen"},{"name":"Jon Pipitone"},{"name":"Karen Cranston"},{"name":"Maxim Belkin"},{"name":"Michael Hansen"},{"name":"Nick Young"},{"name":"evanwill"},{"name":"Adam Obeng"},{"name":"Bill Mills"},{"name":"Gabriel A. Devenyi"},{"name":"Ian Carroll"},{"name":"Jeffrey W. Hollister"},{"name":"Jonah Duckles"},{"name":"Timothée Poisot"},{"name":"W. Trevor King"}]}
+{
+  "contributors": [
+    {
+      "type": "Editor",
+      "name": "Fabrice Rwasimitana",
+      "orcid": "0000-0003-3064-2365"
+    },
+    {
+      "type": "Editor",
+      "name": "Juan A. Ugalde",
+      "orcid": "0000-0001-6638-0817"
+    },
+    {
+      "type": "Editor",
+      "name": "Ethan P. White",
+      "orcid": "0000-0001-6728-7745"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Erin Alison Becker",
+      "orcid": "0000-0002-6832-0233"
+    },
+    {
+      "name": "Tracy Teal",
+      "orcid": "0000-0002-9180-9598"
+    },
+    {
+      "name": "Ben Companjen"
+    },
+    {
+      "name": "Ethan P. White",
+      "orcid": "0000-0001-6728-7745"
+    },
+    {
+      "name": "Kari L. Jordan, PhD",
+      "orcid": "0000-0003-4121-2432"
+    },
+    {
+      "name": "Katrin Leinweber",
+      "orcid": "0000-0001-5135-5758"
+    },
+    {
+      "name": "Luis J Villanueva"
+    }
+  ],
+  "license": {
+    "id": "CC-BY-4.0"
+  }
+}
