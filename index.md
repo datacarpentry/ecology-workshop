@@ -16,7 +16,7 @@ the data and install everything before working through this lesson.
 
 This workshop assumes no prior experience with the tools covered in the workshop.
 
-To get started, follow the directions in the [Setup](.{% link setup.md %}) tab to
+To get started, follow the directions in the [Setup](#setup-instructions-for-your-workshop) tab to
 get access to the required software and data for this workshop.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -35,7 +35,7 @@ life-history, population, and ecological data, with sufficient complexity to
 teach many aspects of data analysis and management, but with many complexities
 removed to allow students to focus on the core ideas and skills being taught.
 
-[More information on this dataset](.{% link \_extras/data.md %})
+[More information on this dataset](data.md)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
