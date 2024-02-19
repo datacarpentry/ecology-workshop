@@ -19,7 +19,7 @@
 
 ## Anaconda installation
 
-Download and install [Anaconda](https://www.anaconda.com/distribution/#download-section).
+Download and install [Anaconda](https://www.anaconda.com/download).
 Remember to choose the installer for Python 3.x.
 Anaconda does not include the plotting package plotnine.  To install this package, open your terminal application and
 type:
