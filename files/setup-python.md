@@ -10,7 +10,7 @@
   Installing all of its scientific packages individually can be
   a bit difficult, so we recommend an all-in-one installer.
   We will use Anaconda or Miniconda.
-  They both use [Conda](https://conda.io/en/latest/), the main difference is
+  They both use [Conda](https://conda.io/en/latest/). The main difference is
   that Anaconda comes with a lot of packages pre-installed.
   With Miniconda you will need to install the required packages.
   We recommend using the Anaconda installation instructions.
