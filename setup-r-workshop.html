@@ -169,10 +169,10 @@
           <div class="accordion accordion-flush" id="accordionFlush11">
             <a href="index.html">Home</a>
 
-            <hr class="half-width"><div class="accordion accordion-flush resources" id="accordionFlush12">
+            <hr class="half-width"><div class="accordion accordion-flush lesson-resources" id="accordionFlush12">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingTwelve">
-                  <button class="accordion-button show" id="resources" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+                  <button class="accordion-button show" id="lesson-resources" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
                     RESOURCES
                   </button>
                 </h2>
@@ -192,7 +192,7 @@
                 </div>
               </div>
             </div>
-            <hr class="half-width resources"><hr class="d-none d-sm-block d-md-none"><div class="d-grid gap-1">
+            <hr class="half-width lesson-resources"><hr class="d-none d-sm-block d-md-none"><div class="d-grid gap-1">
 
             </div>
           </div><!-- /div.accordion -->
@@ -220,7 +220,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Setup for R workshops</h1>
-        <p>Last updated on 2024-08-20 |
+        <p>Last updated on 2024-08-27 |
 
         <a href="https://github.com/datacarpentry/ecology-workshop/edit/main/setup-r-workshop.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -253,7 +253,7 @@ instructions to install <strong><code>tidyverse</code></strong> and
   If you already have R and RStudio installed
   </h3>
 </button>
-<div id="collapseSpoiler1" class="accordion-collapse collapse" aria-labelledby="headingSpoiler1" data-bs-parent="#accordionSpoiler1">
+<div id="collapseSpoiler1" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler1" aria-labelledby="headingSpoiler1">
 <div class="accordion-body">
 <ul><li><p>Open RStudio, and click on “Help” &gt; “Check for updates”. If a
 new version is available, quit RStudio, and download the latest version
@@ -280,7 +280,7 @@ everyone</a> at the bottom of this page.</p></li>
   If you don’t have R and RStudio installed
   </h3>
 </button>
-<div id="collapseSpoiler2" class="accordion-collapse collapse" aria-labelledby="headingSpoiler2" data-bs-parent="#accordionSpoiler2">
+<div id="collapseSpoiler2" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler2" aria-labelledby="headingSpoiler2">
 <div class="accordion-body">
 <ul><li><p>Download R from the <a href="https://cran.r-project.org/bin/windows/base/release.htm" class="external-link">CRAN
 website</a>.</p></li>
@@ -310,7 +310,7 @@ everyone</a> at the bottom of this page.</p></li>
   If you already have R and RStudio installed
   </h3>
 </button>
-<div id="collapseSpoiler3" class="accordion-collapse collapse" aria-labelledby="headingSpoiler3" data-bs-parent="#accordionSpoiler3">
+<div id="collapseSpoiler3" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler3" aria-labelledby="headingSpoiler3">
 <div class="accordion-body">
 <ul><li>
 <p>Open RStudio, and click on “Help” &gt; “Check for updates”. If a
@@ -337,7 +337,7 @@ everyone</a> at the bottom of this page.</p></li>
   If you don’t have R and RStudio installed
   </h3>
 </button>
-<div id="collapseSpoiler4" class="accordion-collapse collapse" aria-labelledby="headingSpoiler4" data-bs-parent="#accordionSpoiler4">
+<div id="collapseSpoiler4" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler4" aria-labelledby="headingSpoiler4">
 <div class="accordion-body">
 <ul><li><p>Download R from the <a href="https://cran.r-project.org/bin/macosx/" class="external-link">CRAN website</a>.</p></li>
 <li><p>Select the <code>.pkg</code> file for the latest R
@@ -393,8 +393,7 @@ do this by going to Tools -&gt; Install Packages and typing the names of
 the packages you want to install, separated by a comma.</li>
 </ul></div>
 </div>
-<section><h2 class="section-heading" id="software">Software<a class="anchor" aria-label="anchor" href="#software"></a>
-<a class="anchor" aria-label="anchor" href="#software"></a></h2>
+<section><h2 class="section-heading" id="software">Software<a class="anchor" aria-label="anchor" href="#software"></a></h2>
 <hr class="half-width"><table class="table"><colgroup><col width="14%"><col width="23%"><col width="4%"><col width="15%"><col width="42%"></colgroup><thead><tr class="header"><th>Software</th>
 <th>Install</th>
 <th>Manual</th>
@@ -425,8 +424,7 @@ the packages you want to install, separated by a comma.</li>
 <td><a href="https://github.com/sqlitebrowser/sqlitebrowser/wiki" class="external-link">Link</a></td>
 <td>Linux, MacOS, Windows</td>
 <td>Tool for creating, designing, and editing database files.</td>
-</tr></tbody></table></section><section><h2 class="section-heading" id="sql">SQL<a class="anchor" aria-label="anchor" href="#sql"></a>
-<a class="anchor" aria-label="anchor" href="#sql"></a></h2>
+</tr></tbody></table></section><section><h2 class="section-heading" id="sql">SQL<a class="anchor" aria-label="anchor" href="#sql"></a></h2>
 <hr class="half-width"><ul><li><p>SQL is a specialized programming language used with databases. We
 use a simple database manager called <a href="https://www.sqlite.org/" class="external-link">SQLite</a> in our lessons. We will use
 the <a href="https://sqlitebrowser.org/" class="external-link">DB Browser for SQLite</a>
@@ -437,8 +435,7 @@ downloaded, double click on it (you may need to open your Downloads
 folder), follow any other instructions that appear, and DB Browser
 should install. After installing, you can delete the installer
 <code>.dmg</code> file.</p></li>
-</ul></section><section><h2 class="section-heading" id="data">Data<a class="anchor" aria-label="anchor" href="#data"></a>
-<a class="anchor" aria-label="anchor" href="#data"></a></h2>
+</ul></section><section><h2 class="section-heading" id="data">Data<a class="anchor" aria-label="anchor" href="#data"></a></h2>
 <hr class="half-width"><p>You can download all of the data used in this workshop by clicking <a href="https://ndownloader.figshare.com/articles/1314459/versions/9" class="external-link">this
 download link</a>. The file is 38.4 MB.</p>
 <p>Clicking the download link will automatically download all of the
@@ -527,7 +524,7 @@ Firefox, Chrome or Safari instead.</p></li>
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
 
         <p>Template licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">CC-BY 4.0</a> by <a href="https://carpentries.org/" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.5" class="external-link">sandpaper (0.16.5)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.6" class="external-link">pegboard (0.7.6)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.3" class="external-link">varnish (1.0.3)</a></p>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.6" class="external-link">sandpaper (0.16.6)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.6" class="external-link">pegboard (0.7.6)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.4" class="external-link">varnish (1.0.4)</a></p>
 			</div>
 		</footer></div> <!-- / div.container -->
 	<div id="to-top">
@@ -549,8 +546,8 @@ Firefox, Chrome or Safari instead.</p></li>
   "url": "https://datacarpentry.github.io/ecology-workshop/setup-r-workshop.html",
   "identifier": "https://datacarpentry.github.io/ecology-workshop/setup-r-workshop.html",
   "dateCreated": "2015-12-12",
-  "dateModified": "2024-08-20",
-  "datePublished": "2024-08-20"
+  "dateModified": "2024-08-27",
+  "datePublished": "2024-08-27"
 }
 
   </script><script>
