@@ -2,9 +2,6 @@
 title: Setup for Python workshops
 ---
 
-```{r include-setup-python, child="files/setup-python.md"}
-```
-
 ## Software
 
 | Software            | Install                         | Manual | Available for         | Description                                               | 
@@ -13,6 +10,9 @@ title: Setup for Python workshops
 | OpenRefine          | [Link](http://openrefine.org/download.html)                                | [Link](http://openrefine.org/documentation.html)       | Linux, MacOS, Windows | Program for reproducibly cleaning data.                   | 
 | Python              | See install instructions below. |        | Linux, MacOS, Windows | Programming language for data analysis and visualisation. | 
 | SQLite Browser      | [Link](http://sqlitebrowser.org/dl/)                                | [Link](https://github.com/sqlitebrowser/sqlitebrowser/wiki)       | Linux, MacOS, Windows | Tool for creating, designing, and editing database files. | 
+
+```{r include-setup-python, child="files/setup-python.md"}
+```
 
 ```{r include-setup-sql, child="files/setup-sql.md"}
 ```
