@@ -20,8 +20,10 @@ Please refer to the [Python section of the workshop website for installation ins
 After following the instructions above, search for the application 'Miniforge Prompt' and open it. 
 Type the following commands, pressing <kbd>Enter</kbd> after each one:
 
-1. `conda activate carpentries`
-2. `jupyter notebook`
+```bash
+conda activate carpentries
+jupyter notebook
+```
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -32,9 +34,10 @@ Type the following commands, pressing <kbd>Enter</kbd> after each one:
 After following the instructions above, open the Terminal application (inside Applications/Utilities). 
 Type the following commands, pressing <kbd>Enter</kbd> after each one:
 
-1. `conda activate carpentries`
-2. `jupyter notebook`
-
+```bash
+conda activate carpentries
+jupyter notebook
+```
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::: spoiler
@@ -44,8 +47,10 @@ Type the following commands, pressing <kbd>Enter</kbd> after each one:
 After following the instructions above, search for the application 'Miniforge Prompt' and open it. 
 Type the following commands, pressing <kbd>Enter</kbd> after each one:
 
-1. `conda activate carpentries`
-2. `jupyter notebook`
+```bash
+conda activate carpentries
+jupyter notebook
+```
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
