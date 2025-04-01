@@ -2,80 +2,6 @@
 title: Setup for Python workshops
 ---
 
-
-
-
-
-
-### Python and Jupyter Notebooks
-
-- [Python](https://python.org) is a popular language for
-  scientific computing, and great for general-purpose programming as
-  well. For this workshop we use Python version 3.x.
-  Installing all of its scientific packages individually can be
-  a bit difficult, so we recommend an all-in-one installer.
-  We will use Anaconda or Miniconda.
-  They both use [Conda](https://conda.io/en/latest/). The main difference is
-  that Anaconda comes with a lot of packages pre-installed.
-  With Miniconda you will need to install the required packages.
-  We recommend using the Anaconda installation instructions.
-
-:::::::::::::::: spoiler
-
-## Anaconda installation
-
-Download and install [Anaconda](https://www.anaconda.com/download).
-Remember to choose the installer for Python 3.x.
-Anaconda does not include the plotting package plotnine.  To install this package, open your terminal application and
-type:
-
-```bash
-conda install -c conda-forge plotnine
-```
-
-:::::::::::::::::::::::::
-
-:::::::::::::::: spoiler
-
-## Miniconda installation
-
-Miniconda is a "light" version of Anaconda. If you install and use Miniconda
-you will also need to install the workshop packages.
-
-Download and install [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
-following the instructions. Remember to choose the installer for
-Python 3.x.
-
-From your terminal application, type:
-
-```bash
-conda list
-```
-
-To install the packages we'll be using in the workshop, type:
-
-```bash
-conda install -y numpy pandas matplotlib jupyter
-conda install -c conda-forge plotnine
-```
-
-:::::::::::::::::::::::::
-
-After installing either Anaconda or Miniconda and the workshop packages,
-launch a Jupyter notebook by typing this command from the terminal:
-
-```bash
-jupyter notebook
-```
-
-The notebook should open automatically in your browser. If it does not or you
-wish to use a different browser, open this link: [http://localhost:8888](https://localhost:8888).
-
-For a brief introduction to Jupyter Notebooks, please consult our
-[Introduction to Jupyter Notebooks](https://datacarpentry.org/python-ecology-lesson/jupyter_notebooks/) page.
-
-
-
 ## Software
 
 | Software            | Install                         | Manual | Available for         | Description                                               | 
@@ -84,6 +10,71 @@ For a brief introduction to Jupyter Notebooks, please consult our
 | OpenRefine          | [Link](http://openrefine.org/download.html)                                | [Link](http://openrefine.org/documentation.html)       | Linux, MacOS, Windows | Program for reproducibly cleaning data.                   | 
 | Python              | See install instructions below. |        | Linux, MacOS, Windows | Programming language for data analysis and visualisation. | 
 | SQLite Browser      | [Link](http://sqlitebrowser.org/dl/)                                | [Link](https://github.com/sqlitebrowser/sqlitebrowser/wiki)       | Linux, MacOS, Windows | Tool for creating, designing, and editing database files. | 
+
+
+
+
+
+
+### Python and Jupyter Notebooks
+
+[Python](https://python.org) is a popular language for scientific computing, and great for general-purpose programming as well. 
+For this workshop we use Python version 3.x.
+Installing all of its scientific packages individually can be a bit difficult, so we provide an environment file to help you take care of them all together.
+We will use the _Miniforge_ distribution of Python.
+
+Please refer to the [Python section of the workshop website for installation instructions](https://carpentries.github.io/workshop-template/install_instructions/#python).
+
+#### Launching Jupyter
+
+:::::::::::::::::::::::::::::::::::::::::: spoiler
+
+##### Windows
+
+After following the instructions above, search for the application 'Miniforge Prompt' and open it. 
+Type the following commands, pressing <kbd>Enter</kbd> after each one:
+
+```bash
+conda activate carpentries
+jupyter notebook
+```
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::: spoiler
+
+##### MacOS
+
+After following the instructions above, open the Terminal application (inside Applications/Utilities). 
+Type the following commands, pressing <kbd>Enter</kbd> after each one:
+
+```bash
+conda activate carpentries
+jupyter notebook
+```
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::: spoiler
+
+##### Linux
+
+After following the instructions above, search for the application 'Miniforge Prompt' and open it. 
+Type the following commands, pressing <kbd>Enter</kbd> after each one:
+
+```bash
+conda activate carpentries
+jupyter notebook
+```
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+The notebook should open automatically in your browser. 
+If it does not or you wish to use a different browser, open this link: [http://localhost:8888](https://localhost:8888).
+
+For a brief introduction to Jupyter Notebooks, please consult our
+[Introduction to Jupyter Notebooks](https://datacarpentry.org/python-ecology-lesson/jupyter_notebooks/) page.
+
+
 
 
 
