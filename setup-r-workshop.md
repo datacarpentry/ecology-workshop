@@ -148,7 +148,7 @@ title: Setup for R workshops
 
 | Software            | Install                         | Manual | Available for         | Description                                               | 
 | ------------------- | ------------------------------- | ------ | --------------------- | --------------------------------------------------------- |
-| Spreadsheet program | [Link](https://www.libreoffice.org/download/download/)                                | [Link](https://documentation.libreoffice.org/en/english-documentation/)       | Linux, MacOS, Windows | Spreadsheet program for organizing tabular data.          | 
+| Spreadsheet program | [Link](https://www.libreoffice.org/download)                                | [Link](https://documentation.libreoffice.org/en/english-documentation/)       | Linux, MacOS, Windows | Spreadsheet program for organizing tabular data.          | 
 | OpenRefine          | [Link](http://openrefine.org/download.html)                                | [Link](http://openrefine.org/documentation.html)       | Linux, MacOS, Windows | Program for reproducibly cleaning data.                   | 
 | R                   | See install instructions below. |        | Linux, MacOS, Windows | Programming language for data analysis and visualisation. | 
 | RStudio             | [Link](https://www.rstudio.com/products/rstudio/download/#download)                                | [Cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf)       | Linux, MacOS, Windows | Integrated development environment for R.                 | 
